@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "product": "TorboProbe",
+  "firmwares": [
+    {
+      "version": "1.0.0",
+      "date": "2026-10-12",
+      "build": "Oct 12 2026 10:13:09",
+      "channel": "stable",
+      "recommended": true,
+      "notes": "Prima versione pubblicata.",
+      "ota": { "url": "1.4.0/firmware.bin" },
+      "usb": {
+        "chip": "esp32s3",
+        "parts": [
+          { "offset": "0x0",     "url": "1.4.0/bootloader.bin" },
+          { "offset": "0x8000",  "url": "1.4.0/partitions.bin" },
+          { "offset": "0xe000",  "url": "1.4.0/boot_app0.bin" },
+          { "offset": "0x10000", "url": "1.4.0/firmware.bin" }
+        ]
+      }
+    }
+  ]
+}
