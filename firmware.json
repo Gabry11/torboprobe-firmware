@@ -3,7 +3,7 @@
   "product": "TorboProbe",
   "firmwares": [
     {
-      "version": "1.0.0",
+      "version": "1.4.0",
       "date": "2026-10-12",
       "build": "Oct 12 2026 10:13:09",
       "channel": "stable",
