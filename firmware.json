@@ -3,20 +3,72 @@
   "product": "TorboProbe",
   "firmwares": [
     {
+      "version": "1.4.1",
+      "date": "2026-11-24",
+      "build": "Nov 24 2026 15:14:48",
+      "channel": "stable",
+      "recommended": true,
+      "notes": "",
+      "ota": {
+        "url": "1.4.1/firmware.bin",
+        "size": 1307888,
+        "sha256": "4756aba1db9edd61e4542b997dd00aa4f834b9439576f9a176bebd4ceb422183"
+      },
+      "usb": {
+        "chip": "esp32s3",
+        "parts": [
+          {
+            "offset": "0x0",
+            "url": "1.4.1/bootloader.bin",
+            "sha256": "e01a2300de23c8d601e9f2a37684b5dbc83ae37132d5a8833e23520afd895f92"
+          },
+          {
+            "offset": "0x8000",
+            "url": "1.4.1/partitions.bin",
+            "sha256": "5b9c6ed4dc93fa70158d52b3fea16e7b7deb358276f20039b2b8d311f161b934"
+          },
+          {
+            "offset": "0xe000",
+            "url": "1.4.1/boot_app0.bin",
+            "sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
+          },
+          {
+            "offset": "0x10000",
+            "url": "1.4.1/firmware.bin",
+            "sha256": "4756aba1db9edd61e4542b997dd00aa4f834b9439576f9a176bebd4ceb422183"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.4.0",
       "date": "2026-10-12",
       "build": "Oct 12 2026 10:13:09",
       "channel": "stable",
-      "recommended": true,
+      "recommended": false,
       "notes": "Prima versione pubblicata.",
-      "ota": { "url": "1.4.0/firmware.bin" },
+      "ota": {
+        "url": "1.4.0/firmware.bin"
+      },
       "usb": {
         "chip": "esp32s3",
         "parts": [
-          { "offset": "0x0",     "url": "1.4.0/bootloader.bin" },
-          { "offset": "0x8000",  "url": "1.4.0/partitions.bin" },
-          { "offset": "0xe000",  "url": "1.4.0/boot_app0.bin" },
-          { "offset": "0x10000", "url": "1.4.0/firmware.bin" }
+          {
+            "offset": "0x0",
+            "url": "1.4.0/bootloader.bin"
+          },
+          {
+            "offset": "0x8000",
+            "url": "1.4.0/partitions.bin"
+          },
+          {
+            "offset": "0xe000",
+            "url": "1.4.0/boot_app0.bin"
+          },
+          {
+            "offset": "0x10000",
+            "url": "1.4.0/firmware.bin"
+          }
         ]
       }
     }
