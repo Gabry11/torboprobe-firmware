@@ -46,7 +46,7 @@
       "build": "Oct 12 2026 10:13:09",
       "channel": "stable",
       "recommended": false,
-      "notes": "Prima versione pubblicata.",
+      "notes": "Versione stabile",
       "ota": {
         "url": "1.4.0/firmware.bin"
       },
